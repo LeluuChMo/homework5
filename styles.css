@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1;
+    border-radius: width=560 height=60;
+}
+header {
+    background-color: #2C3139;
+}
+.mainphoto {
+    width: 2946px;
+    height: 1374px;
+    flex-shrink: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #000;
+}
+h1 {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+h4 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+p {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.search-icon {
+    width: 28.435px;
+    height: 32.852px;
+    flex-shrink: 0;
+}
