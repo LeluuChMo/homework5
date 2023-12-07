@@ -6,6 +6,7 @@
 }
 header {
     background-color: #2C3139;
+    width: 1917px;
 }
 .mainphoto {
     width: 2946px;
@@ -38,8 +39,50 @@ p {
     font-weight: 500;
     line-height: normal;
 }
+.navigation {
+    width: 40px;
+    height: 28px;
+    flex-shrink: 0;
+    color:#D9D9D9;
+    stroke-width: 1.8px;
+    stroke: #FFF;
+}
+.logo {
+    width: 58px;
+    height: 63px;
+    flex-shrink: 0;
+    color:#9D9D9C;
+}
 .search-icon {
     width: 28.435px;
     height: 32.852px;
     flex-shrink: 0;
+}
+.favorites {
+    width: 37px;
+    height: 34px;
+    flex-shrink: 0;
+    color: #FFFFFF;
+}
+.cart {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    color:#FFFFFF;
+}
+.account {
+    width: 40px;
+    height: 44.115px;
+    flex-shrink: 0;
+    color:#FFFFFF;
+}
+.language {
+    display: flex;
+    width: 43px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    color:#FFFFFF;
+    text-decoration: none;
 }
